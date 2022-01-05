@@ -28,12 +28,18 @@ h2{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
+    background-image: linear-gradient(green, red);
     padding: 10px 40px;
     color: white;
     font-weight: 700;
     border-radius: 5px;
+    transition: 0.5s;
 }
+.link-button:hover{
+    transition-duration: 0.5s;
+background-image: linear-gradient(red, green);
+}
+
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
@@ -58,15 +64,37 @@ h2{
     
 }
 #web-dev-exp{
-    border-left: 7px solid ;
-    border-image: linear-gradient(blue,cyan);
-    border-image-slice: 1;
+    color: white;
+    background-image: url(images/sundarban.jpg);
+}
+#web-dev-exp:hover{
+    transition-duration: 0.7s;
+    background-image: url(images/royal\ bengle\ tiger.jpg);
+    background-size: cover;
 }
 #full-stack-exp{
     border-left: 7px solid;
     border-image: linear-gradient(purple, tomato);
     border-image-slice: 1;
+    background-color: green;
+    color: honeydew;
 }
 footer p{
     text-align: center;
+}
+.link-right{
+    text-decoration: none;
+    background-image: linear-gradient(red, green);
+    padding: 0px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin-bottom: 80px;
+    text-align: right;
+
+}
+.link-right:hover{
+    transition-duration: 0.5s;
+    
 }
